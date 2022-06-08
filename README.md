@@ -11,13 +11,16 @@
 The following technologies are required in order to complete this phase of the program:
 
 - **Git**: We'll be using Git as a version control tool during the course of this program. Not only will you use Git to track changes to your projects, but you'll also use it to collaborate with your trainer and with your fellow associates.
-- **Java SE Development Kit 8**: We will be utilizing Java 8 as our primary language for the duration of the program. This software development kit will provide the compiler and runtime environment needed to quickly and efficiently develop Java applications. Please uninstall any other Java versions if it is there in your machine please as it would cause trouble later.
-- **IntelliJ**: We will be using IntelliJ as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
-- **Gradle**: Gradle is a software project management and build automation tool. We will use it to manage our projects' builds as it provides dependency management and streamlines several aspects of the testing life cycle.
+- **Python**: We will be installing CPython, an interpreter that is used
+to run Python code that we will write. This is the official interpreter found on the https://www.python.org/ website
+- **PyCharm**: We will be using PyCharm as our *integrated development environment* (IDE) for Python. Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
 - **PostgreSQL**: PostgreSQL is an open source relational database. We will leverage this technology in order to persist and organize data.
 - **DBeaver**: DBeaver is a free, open source universal database tool that is compatible with several external data sources, one being Postgres. We'll use DBeaver in order to modify our databases and persist data using a simple user interface provided to us by the tool.
 - **Postman**: Postman is used for testing RESTful APIs. We'll use it to set up collections of tests for the RESTful APIs we design throughout the program. It can also be used to quickly test a single endpoint.
 - **Visual Studio Code**: Visual Studio Code is a text editor that makes viewing and modifying code simple. Do not confuse this tool with an integrated development environment as it does not come equipped with all of the development tools you typically find in an IDE.
+- **Java SE Development Kit 8**: We will be utilizing Java 8 towards the second half of our training. This software development kit will provide the compiler and runtime environment needed to quickly and efficiently develop Java applications. Please uninstall any other Java versions if it is there in your machine please as it would cause trouble later.
+- **IntelliJ**: We will be using IntelliJ as our *integrated development environment* (IDE) for Java. This looks very similar to PyCharm as they are both developed by a company called JetBrains
+- **Maven**: Maven is a software project management and build automation tool. We will use it to manage our projects' builds as it provides dependency management and streamlines several aspects of the testing life cycle.
 
 ## Installation Steps
 This method is compatible with all environments as it does not require any platform-specific package managers. You need only visit the official websites for each of the technologies listed and download the version of the tool that is compatible with your system.
@@ -45,7 +48,7 @@ You should now see the following screen:
 
 You should see your operating system listed ("Windows 10" in the above example) and the system type listed under the "System" tab (a 64-bit operating system in the above example).
 
-### Step 1: Install Git
+### Install Git
 
 1. Navigate in your browser to [Git's Website](https://git-scm.com/download) and click the latest download for Windows. (For those using a different OS click the appropriate OS and look for the most recent stable release.)
 
@@ -98,7 +101,86 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/Git-Version.jpg)
 
-### Step 2: Install Java
+### Install Python
+
+
+### Install Postgres
+
+1. Navigate to the [Postgres website](https://www.postgresql.org/download/) and select the appropriate operating system
+
+![](./images/postgres-download-link.PNG)
+
+2. Click on "Download the installer"
+
+![](./images/postgres-download-link-2.PNG)
+
+3. Select the appropriate latest download for your OS
+
+![](./images/postgres-download-link-3.PNG)
+
+4. Once the download is complete, check your downloads folder and run the installer
+
+![](./images/postgres-downloads.PNG)
+
+5. Click next through the prompts
+
+![](./images/postgres-1.PNG)
+![](./images/postgres-2.PNG)
+![](./images/postgres-3.PNG)
+![](./images/postgres-4.PNG)
+
+6. Choose a password that you will REMEMBER! This is important in order to connect to the database later in training. If you forget the password, you will need to uninstall and reinstall Postgres again
+
+![](./images/postgres-5.PNG)
+
+7. Keep the port as the default (5432) and begin the installation
+
+![](./images/postgres-6.PNG)
+![](./images/postgres-7.PNG)
+
+8. When you reach the own, uncheck "Launch Stack Builder at exit" and click finish
+
+![](./images/postgres-8.PNG)
+
+### DBeaver
+
+1. Navigate to the [DBeaver website](https://dbeaver.io/download/) and ensure that you download the **Community Edition** of DBeaver
+
+![](./images/dbeaver-downloads.PNG)
+
+2. Run the installer and click through the prompts. When you reach the options, choose the following
+
+![](./images/dbeaver-1.PNG)
+
+3. Go through the rest of the installation process
+
+### Install Postman
+
+1. Navigate to the [Postman website](https://www.postman.com/downloads/)
+
+![](./images/postman-download-link.PNG)
+
+2. Go to the downloads folder and run the installer
+
+![](./images/postman-downloads.PNG)
+
+3. Go through the installation process. Postman should then open up
+
+### VS Code
+
+1. Navigate to the [Visual Studio Code website](https://code.visualstudio.com/) and click on the appropriate download link
+
+![](./images/vs-code-download-link.PNG)
+
+2. Go to the downloads folder and run the installer
+
+![](./images/vs-code-downloads.PNG)
+
+3. Go through the installation process and check the following options when prompted
+
+![](./images/vs-code-1.PNG)
+
+### Install Java
 1. Navigate in your web browser to [Oracle's JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html?) website. NOTE: If you are experiencing errors when trying to load the webpage try another browser. If you still are having trouble, try again later. 
 
 2. In the top right of the website click "View Accounts" and then "Create an Account." (If you already have an Oracle account you can just skip to step 5)
@@ -189,7 +271,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/JDK-Version.jpg)
 
-### Step 3: Install IntelliJ
+### Install IntelliJ
 
 1. Navigate to the [IntelliJ website](https://www.jetbrains.com/idea/download/) and click on the **Community Edition** download
 
@@ -211,119 +293,3 @@ You should see your operating system listed ("Windows 10" in the above example) 
 5. Once you reach the end of the installation, choose "I want to manually reboot later" 
 
 ![](./images/intellij-4.PNG)
-
-### Step 4: Install Gradle
-
-1. Navigate to the [Gradle website](https://gradle.org/releases/) and click on the latest "binary-only" download
-
-![](./images/gradle-download-link.PNG)
-
-2. When the download completes, go to your downloads folder. You will see a .zip file
-
-![](./images/gradle-downloads.PNG)
-
-3. Extract the contents of the .zip file, which should give you a folder containing Gradle
-
-![](./images/gradle-downloads-2.PNG)
-
-4. Navigate and find your C drive
-
-![](./images/c-drive.PNG)
-
-5. Create an empty folder called Gradle in the C drive and move the "gradle-7.4" folder inside of the Gradle folder
-
-![](./images/gradle-folder.PNG)
-
-6. Type into the search bar "edit the system environment variables" and click on the option
-
-![](./images/edit-env-variables.png)
-
-7. A prompt should pop up on the screen. Click on "Environment variables" in the bottom right
-
-![](./images/env-variables.PNG)
-
-8. Find the path variable, select it and click edit. Add the path to the bin folder of the gradle folder
-
-![](./images/gradle-bin.png)
-![](./images/path-env-variable.PNG)
-![](./images/edit-path.PNG)
-
-9. Close Git bash if you have it open and reopen it. Type in `gradle -version` and verify if you have successfully setup Gradle on your computer
-
-![](./images/gradle-command.PNG)
-
-### Step 5: Install Postgres
-
-1. Navigate to the [Postgres website](https://www.postgresql.org/download/) and select the appropriate operating system
-
-![](./images/postgres-download-link.PNG)
-
-2. Click on "Download the installer"
-
-![](./images/postgres-download-link-2.PNG)
-
-3. Select the appropriate latest download for your OS
-
-![](./images/postgres-download-link-3.PNG)
-
-4. Once the download is complete, check your downloads folder and run the installer
-
-![](./images/postgres-downloads.PNG)
-
-5. Click next through the prompts
-
-![](./images/postgres-1.PNG)
-![](./images/postgres-2.PNG)
-![](./images/postgres-3.PNG)
-![](./images/postgres-4.PNG)
-
-6. Choose a password that you will REMEMBER! This is important in order to connect to the database later in training. If you forget the password, you will need to uninstall and reinstall Postgres again
-
-![](./images/postgres-5.PNG)
-
-7. Keep the port as the default (5432) and begin the installation
-
-![](./images/postgres-6.PNG)
-![](./images/postgres-7.PNG)
-
-8. When you reach the own, uncheck "Launch Stack Builder at exit" and click finish
-
-![](./images/postgres-8.PNG)
-
-### Step 6: DBeaver
-
-1. Navigate to the [DBeaver website](https://dbeaver.io/download/) and ensure that you download the **Community Edition** of DBeaver
-
-![](./images/dbeaver-downloads.PNG)
-
-2. Run the installer and click through the prompts. When you reach the options, choose the following
-
-![](./images/dbeaver-1.PNG)
-
-3. Go through the rest of the installation process
-
-### Step 7: VS Code
-
-1. Navigate to the [Visual Studio Code website](https://code.visualstudio.com/) and click on the appropriate download link
-
-![](./images/vs-code-download-link.PNG)
-
-2. Go to the downloads folder and run the installer
-
-![](./images/vs-code-downloads.PNG)
-
-3. Go through the installation process and check the following options when prompted
-
-![](./images/vs-code-1.PNG)
-
-### Step 8: Install Postman
-
-1. Navigate to the [Postman website](https://www.postman.com/downloads/)
-
-![](./images/postman-download-link.PNG)
-
-2. Go to the downloads folder and run the installer
-
-![](./images/postman-downloads.PNG)
-
-3. Go through the installation process. Postman should then open up
