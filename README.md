@@ -90,8 +90,8 @@ You should see your operating system listed ("Windows 10" in the above example) 
 ![](./images/Git-Line-End-Conversion.jpg)
 ![](.images/Git-MinTTY.jpg)
 ![](./images/Git-Default-Pull.jpg)
-![](.images/Git-Extras.jpg)
-![](.images/Git-Experimental.jpg)
+![](./images/Git-Extras.jpg)
+![](./images/Git-Experimental.jpg)
 
 11. After install you will get a a final window giving you the options to launch Git Bash and view the Readme notes. Select open Git Bash and deselect the view Readme notes. Click "Next."
 
@@ -105,27 +105,27 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 1. Navigate to the Python download page for Python version 3.9 [HERE](https://www.python.org/downloads/release/python-3913/). It is important that you download 3.9, so please check the version carefully
 
-![](./images/python-website-1.PNG)
+![](./images/python-website-1.png)
 
 2. Click on the appropriate download for your OS. If you're on Windows, download the 64 bit installer for Windows
 
-![](./images/python-website-2.PNG)
+![](./images/python-website-2.png)
 
 3. Navigate to the downloads folder and run the installer
 
-![](./images/python-download-3.PNG)
+![](./images/python-download-3.png)
 
 4. Once the installer opens, you should see a list of options. First, check the "Add Python 3.9 to PATH" option and secondly, click "Install Now"
 
-![](./images/python-install-4.PNG)
+![](./images/python-install-4.png)
 
 5. Once Python is done installing, search for command prompt in the search bar if you're on Windows. Open command prompt
 
-![](./images/python-cmd-5.PNG)
+![](./images/python-cmd-5.png)
 
 6. Type in `python --version` and press enter. You should see Python 3.9.13 be printed out to the screen
 
-![](./images/python-cmd-6.PNG)
+![](./images/python-cmd-6.png)
 
 ### Install Postgres
 
