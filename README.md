@@ -127,6 +127,32 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ![](./images/python-cmd-6.png)
 
+### Install PyCharm
+
+1. Navigate to the [PyCharm website](https://www.jetbrains.com/pycharm/) and click on the download button in the center of the page
+
+![](./images/pycharm-1.png)
+
+2. Select the appropriate OS option depending on the OS you are using for your computer. Click on the download button for "Community" edition
+
+![](./images/pycharm-2.png)
+
+3. Navigate to your downloads, find the PyCharm installer and run it
+
+![](./images/pycharm-3.png)
+
+4. Click on next until you reach the following screen. Check the 3 options and then click next
+
+![](./images/pycharm-4.png)
+
+5. Click install and wait for the installation process to finish
+
+![](./images/pycharm-5.png)
+
+6. You will be asked if you would like to reboot your PC to finish the installation of PyCharm. For now, you can select that you want to manually reboot later. Remember, however, to reboot your PC after you're done installing all of the other software to ensure that everything works properly
+
+![](./images/pycharm-6.png)
+
 ### Install Postgres
 
 1. Navigate to the [Postgres website](https://www.postgresql.org/download/) and select the appropriate operating system
